@@ -10,7 +10,6 @@ import { ClientListComponent } from './client-list/client-list.component';
 import { SectionComponent } from './section/section.component';
 import { HeroFormComponent } from './hero-form/hero-form.component';
 import { FormsModule } from '@angular/forms';
-import { ChildComponent } from './child/child.component';
 
 const appRoutes: Routes = [
   { path: 'clients', component: ClientListComponent },
@@ -30,8 +29,7 @@ const appRoutes: Routes = [
     NotFountComponent,
     ClientListComponent,
     SectionComponent,
-    HeroFormComponent,
-    ChildComponent
+    HeroFormComponent
   ],
   entryComponents: [
   ],
